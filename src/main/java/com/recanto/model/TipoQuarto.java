@@ -42,6 +42,29 @@ public class TipoQuarto {
         return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public BigDecimal getPrecoDiaria() {
+        return precoDiaria;
+    }
+
+    public void setPrecoDiaria(BigDecimal precoDiaria) {
+        this.precoDiaria = precoDiaria;
+    }
+
+    public List<Quarto> getQuartos() {
+        return quartos;
+    }
 
 
 
