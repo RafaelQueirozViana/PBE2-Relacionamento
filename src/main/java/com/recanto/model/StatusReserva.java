@@ -1,4 +1,7 @@
 package com.recanto.model;
 
-public class StatusReserva {
+public enum StatusReserva {
+    CONFIRMADA,
+    CANCELADA,
+    FINALIZADA
 }
