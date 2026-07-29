@@ -1,14 +1,14 @@
 package com.recanto.model;
 
 import jakarta.persistence.*;
-
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "quarto")
+@Table(name = "tipo_quarto")
 public class TipoQuarto {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -65,8 +65,4 @@ public class TipoQuarto {
     public List<Quarto> getQuartos() {
         return quartos;
     }
-
-
-
-
 }
